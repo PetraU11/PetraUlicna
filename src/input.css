@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*, :after, :before {
+    box-sizing: border-box;
+  }
+
+
+
+h1,h2,h3{
+    font-weight: bold;
+}
+
+h2 {
+    cursor: pointer;
+
+}
+
+section{
+    padding: 10px 0;
+}
+
+section:hover{
+    color: #ffe45e;
+    background-color: #805d93;
+}
+
+
+
